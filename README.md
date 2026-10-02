@@ -37,22 +37,23 @@ The analysis answers questions such as:
 11. What is the average room price by market segment?
 12. How does the cancellation rate vary by market segment?
 
-SQL Analysis
+## SQL Analysis
 
 The project includes queries using SQL concepts such as:
 
-SELECT
-COUNT()
-AVG()
-SUM()
-GROUP BY
-ORDER BY
-CASE
-WHERE
-Aggregate functions
-Percentage calculations
-Conditional aggregation
-Key Findings
+* `SELECT`
+* `COUNT()`
+* `AVG()`
+* `SUM()`
+* `GROUP BY`
+* `ORDER BY`
+* `CASE`
+* `WHERE`
+* Aggregate functions
+* Percentage calculations
+* Conditional aggregation
+
+## Key Findings
 
 The analysis identified differences in reservation volume and cancellation rates across booking characteristics and market segments.
 
@@ -60,7 +61,9 @@ For example, the Online market segment had 23,214 reservations, of which 8,475 w
 
 Additional findings are based on the results of the 12 SQL queries included in this repository.
 
-Repository Structure
+## Repository Structure
+
+```text
 hotel-reservations-sql/
 │
 ├── README.md
@@ -77,10 +80,12 @@ hotel-reservations-sql/
 ├── 10_reservations_by_market_segment.sql
 ├── 11_average_room_price_by_market_segment.sql
 └── 12_cancellation_rate_by_market_segment.sql
+```
 
-Conclusion
+## Conclusion
 
 This project demonstrates the use of SQL to explore and analyze a real-world hotel reservation dataset and extract information relevant to business decision-making.
 
 The project also helped develop practical skills in data exploration, aggregation, filtering, grouping, and business-oriented analysis using SQL.
+
 
