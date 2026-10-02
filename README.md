@@ -1,6 +1,3 @@
-# hotel-reservations-sql
-SQL data analysis project based on hotel reservation data.
-
 # Hotel Reservations SQL Analysis
 
 SQL data analysis project based on hotel reservation data.
